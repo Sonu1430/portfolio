@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "source code pro", monospace;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #000000;
+    color: #fff;
+}
+
+#header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://media.istockphoto.com/photos/fog-in-black-smoke-and-mist-on-wooden-table-halloween-backdrop-picture-id1341515382?b=1&k=20&m=1341515382&s=170667a&w=0&h=tWLxX861vcc63wxX1flAvwVhZouZ3blavWpUsu0K55k=);
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    padding: 10px 10%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    float: right;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    position: relative;
+}
+
+.header-text {
+    margin-top: 20%;
+    font-size: 30px;
+    text-align: center;
+}
+
+.header-text h1 {
+    font-size: 60px;
+    margin-top: 20px;
+}
+
+.header-text h1 span {
+    color: red;
+}
+
+/*-- ---------------------------------------------------------------------------------------------- -- */
+
+#about {
+    padding: 80px 0;
+    color: #fff;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-col-1 {
+    flex-basis: 35%;
+}
+
+.about-col-1 img {
+    width: 100%;
+    border-radius: 15px;
+    mix-blend-mode: lighten;
+}
+
+.about-col-2 {
+    flex-basis: 60%;
+}
+.about-col-2 p{
+    font-size: 50px;
+}
+
+.sub-title {
+    font-size: 80px;
+    font-weight: 600;
+    color: red;
+}
+
+/*-- ---------------------------------------------------------------------------------------------- -- */
+
+#projects {
+    padding: 5px 0;
+}
+
+.projectlist {
+    width: 100%;
+    height: 550px;
+    margin-top: 100px;
+    background: #262626;
+    border-radius: 10px;
+    align-items: center;
+    font-size: 50px;
+    text-align: center;
+}
+
+.projectlist div i {
+    margin-top: 150px;
+}
+
+/*-- ---------------------------------------------------------------------------------------------- -- */
+#contact {
+    margin-top: 100px;
+}
+
+.contact_form {
+    margin-top: 50px;
+    text-align: center;
+    background: fixed;
+    color: #a03917;
+}
+
+form input,
+form textarea {
+    width: 50%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+form .btn {
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.btn {
+    padding: 14px 50px;
+    width: fit-content;
+    margin: 50px auto;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    background: #a03917;
+    border: 1px solid #a03917;
+    border-radius: 5px;
+}
+
+.contact_info {
+    color: #fff;
+    width: 100%;
+    margin-top: 20px;
+    background: #262626;
+    text-align: center;
+    font-size: 30px;
+}
+
+.contact_info p{
+    padding: 20px 0px;
+}
+
+.contact_info p a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+.contact_info p i {
+    color: #a03917;
+    margin-right: 15px;
+    font-size: 25px;
+}
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: #a03917;
+    display: inline-block;
+}
